@@ -226,7 +226,7 @@ ul.pagination li.active a {
     font-family: Roboto, sans-serif;
     font-size: 100%;
     line-height: 1.4;
-    background: royalblue;
+    background: rgb(102, 139, 204);
     color: white;
     flex-direction: column;
     justify-content: center;
