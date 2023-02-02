@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    /* font:.8rem/1rem Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Roboto, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+p { 
+    margin: 1rem;
+}
+
+@font-face {
+    font-family: 'Astro';
+    font-style: normal;
+    font-weight:600;
+    src: local('Astro'),
+        url('/fonts/astrodotbasic.eot'), 
+        url('/fonts/astrodotbasic.woff'),
+        url('/fonts/astrodotbasic.woff2'),
+        url('/fonts/astrodotbasic.ttf'),
+        url('/fonts/astrodotbasic.svg');
+}
+
+@font-face {
+    font-family: "Stix";
+    font-style: normal;
+    font-weight:600;
+    src: url("/fonts/STIXTwoMath-Regular.woff2") format('woff2'), 
+         url("/fonts/STIXTwoMath-Regular.ttf") format('ttf'),
+         url("/fonts/STIXTwoMath-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Alphabetum';
+    font-style: normal;
+    font-weight:600;
+    src: local('Alphabetum'),
+        url('/fonts/alphabetum.ttf');
+}
+
+.katex {
+    font-size: 3em;
+}
+
+
+
+h1 { 
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+    font-size: 28px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 30px; 
+}
+h2 { 
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+}
+h3 { 
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+}
+p { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 15px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 21px; 
+} 
+a { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 15px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 21px; 
+} 
+blockquote { 
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 15px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 21px; 
+}
+
+h1,h2,h3,h4,h5 {
+    color: #014f83;
+  }
+
+#header,
+#footer {
+    background: #edefbc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Roboto Mono', Verdana, Geneva, Tahoma, sans-serif; */
+    padding: 0.4rem 0.8rem;
+    width: 960px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+#header h1 {
+    font-size: 0.8rem;
+    margin: 0;
+    color: #045e9b;
+}
+#header h1 a {
+    color: #045e9b;
+    text-decoration: none;
+}
+
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li {
+    padding: 0 0 0 0.8rem;
+}
+nav a {
+    color: #44ace9;
+    text-decoration: none;
+}
+
+#main {
+    background-color: #f5f5f5;
+    width: 960px;
+}
+
+.item {
+    margin-bottom: 0.6rem;
+}
+.item__urls {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* 'Roboto Mono', Verdana, Geneva, Tahoma, sans-serif; */
+}
+.item__urls > a:first-child {
+    color: #11a;
+    text-decoration: none;
+}
+.item__siteurl,
+.item__siteurl > *,
+.item__count {
+    color: #828282;
+    font-size: .7rem;
+    text-decoration: none;
+}
+.item__meta {
+    font-size: .6rem;
+    margin-top: 0;
+}
+.item__meta > * {
+    color: #828282;
+    margin-right: .5rem;
+}
+.item__count {
+    margin: 0 0 0 0.5rem;
+}
+
+ul.pagination {
+    display: flex;
+    list-style: none;
+}
+ul.pagination li {
+    margin: 0 .4rem 0 0;
+}
+ul.pagination li a {
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    display: block;
+    padding: 0.3rem;
+    text-align: center;
+    text-decoration: none;
+    width: 32px;
+}
+ul.pagination li.active a {
+    border-color: orange;
+}
+
+.single {
+    padding: 1rem;
+}
+.single code {
+    background: #fdbcfb;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+}
+
+@media (max-width: 960px) {
+    #header,
+    #main,
+    #footer {
+        width: 100%;
+    }
+}
+
+/* LAYOUT */
+
+body {
+    color: rgb(145, 0, 0);
+    /* color: rgb(145, 19, 19); */
+    font-size: 100%;
+    line-height: 1.4;
+    max-width: 45rem;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+.content {
+    margin-bottom: 2rem;
+}
+
+/* NAVIGATION */
+
+.site-nav {
+    display: flex;
+}
+.site-nav a {
+    display: block;
+    padding: 1rem;
+}
+.site-nav .logo {
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 48rem) {
+    .site-nav,
+    .main-menu {
+        flex-direction: column;
+    }
+
+    .site-nav a {
+        padding: 0.5rem;
+        padding-left: 0;
+    }
+}
+
+/* LISTS */
+
+.post-snippet {
+    margin-bottom: 1rem;
+}
+.post-snippet h3 {
+    margin-bottom: 0.25rem;
+}
+
+figure {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    color:rgb(19, 42, 145);
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+img {
+    text-indent: -999px;
+}
+
+a img {  
+    border: none;  
+}  
+
+td {
+    padding: 5px 10px;   /* top/bottom  left/right  */
+}
+
+figcaption {
+    font-size: 125%;
+}
+
+tr:nth-child(even)  {
+    background-color: palegreen;
+    color: brown;
+ }
+
+ button * {pointer-events: none;}
+
+ul {
+    margin-top: -15px;
+}

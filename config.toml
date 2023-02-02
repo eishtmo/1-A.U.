@@ -1,0 +1,40 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "MOON CYCLE PHENOMENA"
+theme = "hugo-starter"
+pluralizeListTitles = false
+
+[Params]
+    mainSections = ["posts"]
+    intro = true
+    headline = "My headline"
+    description = "My description"
+    # github = "https://github.com/XXX"
+    # twitter = "https://twitter.com/XXX"
+    # email = "XXX@example.com"
+    opengraph = false
+    shareTwitter = false
+    dateFormat = "Mon, Jan 2, 2007"
+    math = true
+
+[Permalinks]
+    post = "/:filename/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "Timecycle"
+    name = "1. Timecycle"
+    url = "/1.Timecycle"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "Phase"
+    name = "2. Phase"
+    url = "/2.Phase"
+    weight = 20
+
