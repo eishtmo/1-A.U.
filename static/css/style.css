@@ -94,7 +94,7 @@ pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 h1,h2,h3,h4,h5 {
-    color: #014f83;
+    color: rosybrown;
   }
 
 #header,
@@ -226,7 +226,7 @@ ul.pagination li.active a {
     font-family: Roboto, sans-serif;
     font-size: 100%;
     line-height: 1.4;
-    background: rgb(102, 139, 204);
+    background: darkgreen;
     color: white;
     flex-direction: column;
     justify-content: center;
@@ -306,7 +306,7 @@ tr:nth-child(even)  {
     color: brown;
  }
 
- button * {pointer-events: none;}
+button * {pointer-events: none;}
 
 ul {
     margin-top: -15px;
@@ -314,4 +314,23 @@ ul {
 
 .huge {
   font-size: 5em;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column1 {
+    flex: 1 1 50%; /* column 1 width,   1 1 lets columns grow/shrink  */
+    padding: 5px;
+    margin: 0px;
+}
+.column2 {
+flex: 1 1 50%; /* column 2 width  */
+    padding: 5px;
+    margin: 0px;
+}
+
+.glyph {
+    font-family: Stix;
 }
