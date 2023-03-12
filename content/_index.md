@@ -10,7 +10,7 @@ title: "_index_"
 
 <div class="flex-container">
   <div class="column1">
-    <a href=""> <img src="/;img/meton-2015-2033.png" alt="Meton Cycle" border="0" width="450px" height="100%">
+    <a href=""> <img src="/;img/meton-2015-2033.png" alt="Meton Cycle" border="0" width="100%" height="100%">
     </a>
   </div>
   <div class="column2">
@@ -20,7 +20,7 @@ title: "_index_"
 
 <div class="flex-container">
   <div class="column1">
-    <a href=""> <img src="/;img/moon-north-pole.png" alt="Meton Cycle" border="0" width="450px" height="100%">
+    <a href=""> <img src="/;img/moon-north-pole.png" alt="Meton Cycle" border="0" width="100%" height="100%">
     </a>
   </div>
   <div class="column2">
@@ -32,7 +32,7 @@ title: "_index_"
 
 <div class="flex-container">
   <div class="column1">
-    <a href=""> <img src="/;img/month1.png" alt="Meton Cycle" border="0" width="450px" height="100%">
+    <a href=""> <img src="/;img/month1.png" alt="Meton Cycle" border="0" width="100%" height="100%">
     </a>
   </div>
   <div class="column2">
@@ -44,7 +44,7 @@ title: "_index_"
 
 <div class="flex-container">
   <div class="column1">
-    <a href=""> <img src="/;img/orbit-e.png" alt="Meton Cycle" border="0" width="450px" height="100%">
+    <a href=""> <img src="/;img/orbit-e.png" alt="Meton Cycle" border="0" width="100%" height="100%">
     </a>
   </div>
   <div class="column2">
@@ -56,7 +56,7 @@ title: "_index_"
 
 <div class="flex-container">
   <div class="column1">
-    <a href=""> <img src="/;img/orbit11.png" alt="Meton Cycle" border="0" width="450px" height="100%">
+    <a href=""> <img src="/;img/orbit11.png" alt="Meton Cycle" border="0" width="100%" height="100%">
     </a>
   </div>
   <div class="column2">
