@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "MOON CYCLE PHENOMENA"
+title = "MOON CYCLE PATTERNS"
 theme = "hugo-starter"
 pluralizeListTitles = false
 
@@ -35,6 +35,41 @@ pluralizeListTitles = false
   [[menu.main]]
     identifier = "Phase"
     name = "2. Phase"
-    url = "/2.Phase"
+    url = "/moon/2.phase"
     weight = 20
 
+  [[menu.main]]
+    identifier = "Orbit"
+    name = "3. Orbit"
+    url = "/3.Orbit"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "Moonth"
+    name = "4. Moonth"
+    url = "/4.Moonth"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "Itself"
+    name = "5. Itself"
+    url = "/5.Itself"
+    weight = 50
+    
+  [[menu.main]]
+    identifier = "Sky"
+    name = "6. Sky"
+    url = "/6.Sky"
+    weight = 60
+
+  [[menu.main]]
+    identifier = "Phenomena"
+    name = "7. Phenomena"
+    url = "/7.Phenomena"
+    weight = 70
+
+  [[menu.main]]
+    identifier = "Addenda"
+    name = "z. Addenda"
+    url = "/z.Addenda"
+    weight = 80

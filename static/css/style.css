@@ -316,21 +316,26 @@ ul {
   font-size: 5em;
 }
 
+
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .column1 {
     flex: 1 1 50%; /* column 1 width,   1 1 lets columns grow/shrink  */
-    padding: 5px;
-    margin: 0px;
+    padding: 0px;
+    margin: 5px;
 }
 .column2 {
-flex: 1 1 50%; /* column 2 width  */
-    padding: 5px;
-    margin: 0px;
+    flex: 1 1 48%; /* column 2 width  */
+    padding: 0px;
+    margin: 5px;
 }
 
 .glyph {
     font-family: Stix;
+}
+
+.yellow {
+    color: goldenrod;
 }
