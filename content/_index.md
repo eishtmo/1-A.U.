@@ -10,7 +10,7 @@ title: "_index_"
 
 <div class="flex-container">
   <div class="column1">
-    <a href=""> <img src="/;img/meton-2015-2033.png" alt="Meton Cycle" border="0" width="400px" height="100%">
+    <a href=""> <img src="/;img/full-moons-2015-2033.png" alt="Meton Cycle" border="0" width="400px" height="100%">
     </a>
   </div>
   <div class="column2">

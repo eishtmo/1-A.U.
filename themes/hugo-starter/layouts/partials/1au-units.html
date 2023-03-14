@@ -1,14 +1,12 @@
 
 <header class="site-header">
   
-    <div id="auunits" class="yellow">
+    <div id="auunits" class="white">
         <form>	  
-                <span>1AU&ensp;$=$&ensp;1 Astronomical Unit $=$ 'average' Sun-Earth distance&ensp;$=$&ensp;</span>
-                <span id="distanceValue" class="Stix"></span>
-                <span>&thinsp;</span>
+            <span>1AU&ensp;$=$&ensp;1 Astronomical Unit $=$ 'average' Sun-Earth distance&ensp;$=$&ensp;</span>
+            <span id="distanceValue" class="xl"></span>
+            <span>&thinsp;</span>
             <select id="distanceUnit" name="distanceUnit">
-                <option value="abc" hidden>149597870700.0</option>
-                <!-- <option value="au">AU</option> -->
                 <option value="mile">miles</option>
                 <option value="meter">meters</option>
                 <option value="moonDiameter">Moon diameters</option>
@@ -47,14 +45,13 @@
                 var zz = e_dist.options[z].value;
                 var nf = new Intl.NumberFormat('en-US');
                 var oneau = parseFloat(mult[zz]).toFixed(1);
-        // console.log(distval, typeof(distval));
-                distval.innerText = '$' + nf.format(oneau) + '$'; 
+                distval.innerText = nf.format(oneau); 
+
             //	EVENT LISTENER
                 e_dist.addEventListener("change", function () {
                         var x = e_dist.options[e_dist.selectedIndex].value;
                         var oneau = parseFloat(mult[x]).toFixed(1);
-            // console.log(distval, typeof(distval));
-                        distval.innerText = '$' + nf.format(oneau) + '$';
+                        distval.innerText = nf.format(oneau);
                 });
 
         }	// END function auunits
