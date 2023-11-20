@@ -6,6 +6,7 @@ title: "_index_"
 
 
 
+<h3> www.1au.com HOME PAGE ; in content/_index.md </h3>
 
 
 <div class="flex-container">
@@ -55,12 +56,14 @@ title: "_index_"
 </br>
 
 <div class="flex-container">
-  <div class="column1">
-    <a href=""> <img src="/;img/orbit11.png" alt="Meton Cycle" border="0" width="400px" height="100%">
-    </a>
-  </div>
-  <div class="column2">
-    <h2>25 Weeks :: Orbit Inclination Cycle</h2>
-  </div>
+    <div class="column1">
+      <a href=""> <img src="/;img/orbit11.png" alt="Meton Cycle" border="0" width="400px" height="100%">
+      </a>
+    </div>
+    <div class="column2">
+25 Weeks :: Orbit Inclination Cycle
+
+25 weeks
+    </div>
 </div>
 

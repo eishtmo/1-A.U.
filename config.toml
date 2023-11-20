@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "MOON CYCLE PHENOMENA"
+title = "MARS' CYCLES"
 theme = "hugo-starter"
 pluralizeListTitles = false
 
@@ -29,47 +29,42 @@ pluralizeListTitles = false
   [[menu.main]]
     identifier = "Timecycle"
     name = "1. by TIMECYCLE"
-    url = "/1.Timecycle"
+    url = "mars/1.Timecycle"
     weight = 10
 
   [[menu.main]]
     identifier = "Phase"
     name = "2. PHASE"
-    url = "/moon/2.Phase"
+    url = "/mars/2.Phase"
     weight = 20
 
   [[menu.main]]
     identifier = "Orbit"
     name = "3. ORBIT"
-    url = "/3.Orbit"
+    url = "/mars/3.Orbit"
     weight = 30
 
   [[menu.main]]
     identifier = "Moonth"
     name = "4. MOONTH"
-    url = "/4.Moonth"
+    url = "/mars/4.Moonth"
     weight = 40
 
   [[menu.main]]
     identifier = "Itself"
     name = "5. ITSELF"
-    url = "/5.Itself"
+    url = "/mars/5.Itself"
     weight = 50
     
   [[menu.main]]
     identifier = "Sky"
     name = "6. SKY"
-    url = "/6.Sky"
+    url = "/mars/6.Sky"
     weight = 60
 
   [[menu.main]]
     identifier = "Phenomena"
     name = "7. by PHENOMENA"
-    url = "/7.Phenomena"
+    url = "/mars/7.Phenomena"
     weight = 70
 
-  [[menu.main]]
-    identifier = "Addenda"
-    name = "z. Addenda"
-    url = "/z.Addenda"
-    weight = 80
