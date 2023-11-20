@@ -709,16 +709,20 @@
  
  .xl {
    font-family: "Times New Roman";
-   font-size: 22px; 
+   font-size: 20px; 
    font-style: normal; 
    font-variant: normal; 
    font-weight: 500; 
-   line-height: 24px; 
+   line-height: 22px; 
    letter-spacing: 0.05em;
  }
  
  .huge {
    font-size: 5em;
+ }
+
+ .sc {
+    font-variant: small-caps;
  }
  
  .flex-container {
