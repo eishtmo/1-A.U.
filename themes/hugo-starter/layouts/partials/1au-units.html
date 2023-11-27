@@ -2,7 +2,7 @@
 <header class="site-header">
   
 
-   <canvas id="crescent" width="500" height="75" style="border:1px dotted white; padding:0px; display:inline;"></canvas>  
+   <canvas id="crescent" width="550" height="60" style="border:1px dotted white; padding:0px; display:inline;"></canvas>  
 
 
 <script>
@@ -14,13 +14,13 @@
     </script>
 
 
-    <div id="auunits" class="white" style = "position:absolute; top:12px; left:75px;" >
+    <div id="auunits" class="white" style = "position:absolute; top:8px; left:100px;" >
         <form>	  
             <span class="xl">$1$ </span>
             <span class="sc">AU &ensp;$=$&ensp;</span>
             <span id="distanceValue" class="xl"></span>
             <span>&thinsp;</span>
-            <select id="distanceUnit" name="distanceUnit">
+            <select id="distanceUnit" name="distanceUnit" class="selectunit">
                 <option value="mile">miles</option>
                 <option value="meter">meters</option>
                 <option value="moonDiameter">Moon diameters</option>
@@ -78,85 +78,43 @@
 
 <script>
 
-    let sun = String.fromCharCode(0x2299);
-    let moonfull = String.fromCharCode(0x25CB); 
-    let moonnew = String.fromCharCode(0x25CD);
-    let moon1q = String.fromCharCode(0x263D);
-    let moon3q = String.fromCharCode(0x263E);
-    let sunmoonG = [sun, moonnew, moon1q, moonfull, moon3q];
 
-    let mercury = String.fromCharCode(0x263F);
-    let venus = String.fromCharCode(0x2640);
-    let earth = String.fromCharCode(0x2295);
-    let mars = String.fromCharCode(0x2642);
-    let jupiter = String.fromCharCode(0x2643);
-    let saturn = String.fromCharCode(0x2644);
-    let uranus = String.fromCharCode(0x2645);
-    let neptune = String.fromCharCode(0x2646);
-    let planetG = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune];
-
-    // let aries = String.fromCharCode(0x2648);
-    // let taurus = String.fromCharCode(0x2649);
-    // let gemini = String.fromCharCode(0x264A);
-    // let cancer = String.fromCharCode(0x264B);
-    // let leo  = String.fromCharCode(0x264C);
-    // let virgo = String.fromCharCode(0x264D);
-    // let libra = String.fromCharCode(0x264E);
-    // let scorpius = String.fromCharCode(0x264F);
-    // let sagittarius = String.fromCharCode(0x2650);
-    // let capricorn = String.fromCharCode(0x2651);
-    // let aquarius = String.fromCharCode(0x2652);
-    // let pisces = String.fromCharCode(0x2653);
-    // let constellG = [aries, taurus, gemini, cancer, leo, virgo, libra, scorpius, sagittarius, capricorn, aquarius, pisces];
-
-    let conjunction = String.fromCharCode(0x260C);
-    let opposition = String.fromCharCode(0x260D);
-    let ascendingnode = String.fromCharCode(0x260A);
-    let descendingnode = String.fromCharCode(0x260B);
-    let configG = [conjunction, opposition, ascendingnode, descendingnode];
-
-
-    ctx.font = "35px Stix";
-    ctx.fillStyle = 'red';
-    ctx.fillText(sun,0, 25);
-    ctx.fillText(earth, 470, 25);
 
     ctx.strokeStyle = 'white';
-    ctx.moveTo(15, 1);
-    ctx.lineTo(485, 1);
+    ctx.moveTo(21, 30);
+    ctx.lineTo(485, 30);
     ctx.stroke();
-    ctx.moveTo(15, 1);
-    ctx.lineTo(45,10);
+    // left arrow
+    ctx.moveTo(21, 30);
+    ctx.lineTo(56,40);
     ctx.stroke();
-    ctx.moveTo(485, 1);
-    ctx.lineTo(455, 10);
+    ctx.moveTo(21, 30);
+    ctx.lineTo(56, 20);
+    ctx.stroke();
+    // right arrow
+    ctx.moveTo(485, 30);
+    ctx.lineTo(450,20);
+    ctx.stroke();
+    ctx.moveTo(485, 30);
+    ctx.lineTo(450, 40);
     ctx.stroke();
 
+    let sun = String.fromCharCode(0x2299);
+    let earth = String.fromCharCode(0x2295);
 
-    ctx.font = "23px Stix";
-    ctx.fillStyle = 'blue';
+    ctx.font = "45px Stix";
+    ctx.fillStyle = 'red';
+    ctx.fillText(sun, 0, 43);
+    ctx.fillText(earth, 470, 43);
 
-    let yg = 64;
+    ctx.fillStyle = 'white';
+    ctx.font = '16px sans-serif';
+    ctx.fillText("1 Astronomical Unit  ~  Earth-Sun distance", 100, 50);
 
-    for (var j = 0; j <= 4; j++) { 
-        ctx.fillText(sunmoonG[j], 25 + 25*j, yg); 
-    }
-
-    for (var j = 0; j <= 7; j++) { 
-        ctx.fillText(planetG[j], 160 + 25*j, yg); 
-    }
-
-    // for (var j = 0; j <= 11; j++) { 
-    //     ctx.fillText(constellG[j], 370 + 25*j, yg); 
-    // }
-
-    for (var j = 0; j <= 3; j++) { 
-        ctx.fillText(configG[j], 370 + 25*j, yg); 
-    }
-
-    auunits();
 
 </script>
+
+
 
 
 

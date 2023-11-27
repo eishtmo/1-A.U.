@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "MARS' CYCLES"
+title = "ASTRO CYCLES"
 theme = "hugo-starter"
 pluralizeListTitles = false
 
@@ -27,44 +27,56 @@ pluralizeListTitles = false
 
 [menu]
   [[menu.main]]
-    identifier = "Timecycle"
-    name = "1. by TIMECYCLE"
-    url = "mars/1.Timecycle"
+    identifier = "Mercury"
+    name = '1. Mercury'
+    url = "/mercury"
     weight = 10
 
   [[menu.main]]
-    identifier = "Phase"
-    name = "2. PHASE"
-    url = "/mars/2.Phase"
+    identifier = "Venus"
+    name = "2. Venus"
+    url = "/venus"
     weight = 20
 
   [[menu.main]]
-    identifier = "Orbit"
-    name = "3. ORBIT"
-    url = "/mars/3.Orbit"
+    identifier = "Earth"
+    name = "3. Earth"
+    url = "/earth"
     weight = 30
 
   [[menu.main]]
-    identifier = "Moonth"
-    name = "4. MOONTH"
-    url = "/mars/4.Moonth"
+    identifier = "Mars"
+    name = "4. Mars"
+    url = "/mars"
     weight = 40
-
-  [[menu.main]]
-    identifier = "Itself"
-    name = "5. ITSELF"
-    url = "/mars/5.Itself"
-    weight = 50
     
   [[menu.main]]
-    identifier = "Sky"
-    name = "6. SKY"
-    url = "/mars/6.Sky"
+    identifier = "Jupiter"
+    name = "5. Jupiter"
+    url = "/jupiter"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "Saturn"
+    name = "6. Saturn"
+    url = "/saturn"
     weight = 60
 
   [[menu.main]]
-    identifier = "Phenomena"
-    name = "7. by PHENOMENA"
-    url = "/mars/7.Phenomena"
+    identifier = "Uranus"
+    name = "7. Uranus"
+    url = "/uranus"
     weight = 70
+
+  [[menu.main]]
+    identifier = "Neptune"
+    name = "8. Neptune"
+    url = "/neptune"
+    weight = 80
+
+  [[menu.main]]
+    identifier = "Pluto"
+    name = "9. Pluto"
+    url = "/pluto"
+    weight = 90
 
